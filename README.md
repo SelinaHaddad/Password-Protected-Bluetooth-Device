@@ -1,2 +1,3 @@
 # Password-Protected-Bluetooth-Device
-This project was completed as a team of 3 for an Embedded Systems Design Course. The program was written in C, and was burnt into an 8051 MCU.
+This project was completed as a team of 3 for an Embedded Systems Design Course. The program was written in C and was burnt into an 8051 MCU.
+Project Description: After compiling the program, the MCU asks for a passcode from the 4x4 keypad. If the passcode is correct, the MCU plays a frequency indicating that the device has connected, connects to the MCU, and has access to display any text typed on the LCD. If the passcode is incorrect, the MCU plays two frequencies indicating that the passcode is wrong and sends a message via the LCD indicating that the passcode is incorrect. Later, the user can try another passcode. 
